@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.top{
+   
+   
+    width: 80%;
+    margin: auto;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px ;
+}
+
+ul li{
+    width: 111.17px;
+    height: 27.68px;
+}
+
+.top ul button{
+    font-weight: bold;
+    font-size: 18px;
+    width:167px;
+    height: 56px;
+    color:white;
+    background-color: #13183F;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 28px;
+}
+
+.main{
+    display: flex;
+}
+
+.main .mainLeft{
+    width: 80%;
+   
+    display: flex;
+}
+.main .mainLeft h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+   font-weight: 700;
+    width: 50%;
+    margin: 400px  auto 0;
+}
+.main .mainLeft p {
+    color : #83869A;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: 30px auto;
+}
+.main .mainLeft .contentLeft{
+    height: 100%;
+    width: 80%;
+    
+}
+
+.main .mainLeft button{
+    width: 167px;
+    height: 63px;
+    
+    border-radius: 31.5px;
+    border: none;
+    background: rgb(252,98,89);
+background: linear-gradient(3deg, rgba(252,98,89,1) 0%, rgba(242,50,154,1) 100%);
+color:white;
+font-size: 18px;
+margin:28px 210px;
+
+}
+
+.main .mainLeft button:hover{
+    opacity: 0.7;
+}
+.main .mainRight{
+    width: 45%;
+   
+}
+
+
+.containerMain{
+    
+    width: 1440px;
+    height: 888px;
+    
+    margin: auto;
+}
+
+.containerMain a {
+    color : #F74780; 
+    text-decoration: none;
+
+}
+.wrap{
+    margin: auto;
+    width: 1110px;
+    height: 748px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card:first-child{
+    background: rgb(252,98,89);
+    background: linear-gradient(3deg, rgba(252,98,89,1) 0%, rgba(242,50,154,1) 100%);
+    color:white;
+    font-size: 32px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 350px;
+    height: 322px;
+  
+}
+.card:first-child h1 {
+    margin: 45px 30px;
+}
+
+.first p {
+    margin-top: 40px ;
+}
+
+.card{
+   
+    width: 350px;
+    height: 346px;
+    font-family: 'Plus Jakarta Sans';
+    margin: 0 10px;
+}
+
+.card img {
+    margin-bottom: 15px;
+}
+
+.card h3{
+    margin-bottom: 15px;
+}
+.card p {
+    color: #83869A;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 28px;
+}
+.card a {
+    display: block;
+    margin-top: 40px;
+    font-weight: 800;
+}
+.card a:hover{
+    opacity: 0.7;
+}
+.wrap h1{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 50px;
+    font-size: 32px;
+    height: 100%;
+    
+}
+.wrap{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.navFooter{
+    width: 100vw;
+    height: 120px;
+    background: #13183F;
+   
+}
+
+.navFooter ul {
+    width: 80%;
+    margin: 0 auto;
+    
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navFooter button{
+    background: rgb(194,89,252);
+    background: linear-gradient(3deg, rgba(194,89,252,1) 0%, rgba(242,50,142,1) 100%); 
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    width:167px;
+    height: 56px;
+    color:white;
+    background-color: #13183F;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 28px;
+}
+.navFooter button:hover{
+    opacity: 0.7;
+}
